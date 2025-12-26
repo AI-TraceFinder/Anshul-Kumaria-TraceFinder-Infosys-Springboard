@@ -1,0 +1,9 @@
+Random Forest Accuracy : 0.9832
+SVM Accuracy           : 0.9832
+
+Classes:
+- flatfield
+- official_scans
+- original_images
+- tampered
+- wiki_scans
