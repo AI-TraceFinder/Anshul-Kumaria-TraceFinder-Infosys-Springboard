@@ -1,0 +1,105 @@
+# Milestone 4 – Deployment & Final Documentation
+## AI TraceFinder: Scanner Image Verification System
+
+---
+
+## 1. Introduction
+Milestone 4 focuses on deploying the trained deep learning model through a user-friendly web interface. The system allows users to upload scanned document images and receive predictions along with confidence scores. All predictions are logged and made downloadable.
+
+---
+
+## 2. Objectives
+- Deploy trained CNN model
+- Build UI for image upload
+- Display prediction and confidence score
+- Store prediction logs
+- Test the system with sample images
+- Document results with screenshots
+
+---
+
+## 3. Software & Tools Used
+- Python 3.11
+- TensorFlow / Keras
+- Streamlit
+- NumPy
+- Pandas
+- PIL
+- VS Code
+- Google Colab
+
+---
+
+## 4. System Architecture
+1. User uploads scanned image
+2. Image preprocessing (resize & normalization)
+3. Model inference using trained CNN
+4. Prediction and confidence generation
+5. Display results on UI
+6. Save prediction in CSV log
+
+---
+
+## 5. Deployment Process
+The application is deployed locally using Streamlit.
+
+### Steps:
+1. Install dependencies:
+pip install -r requirements.txt
+2. Run application:
+python -m streamlit run app.py
+3. Access UI via browser:
+http://localhost:8501
+
+---
+
+## 6. Model Used
+- CNN model trained in previous milestones
+- Input size: 224 × 224 × 3
+- Output: Binary classification
+- Model file: `tracefinder_model.h5`
+
+---
+
+## 7. Testing Details
+Three test images were used:
+- test1.png
+- test2.png
+- test3.png
+
+Each image was successfully classified, and confidence scores were generated.
+
+---
+
+## 8. Prediction Log
+- Predictions are stored in `prediction_log.csv`
+- Fields include:
+- Timestamp
+- Image Name
+- Prediction Label
+- Confidence Score
+
+---
+
+## 9. Screenshots Included
+The `result_screenshots` folder contains:
+- Model loading confirmation
+- Streamlit UI
+- Uploaded image preview
+- Prediction & confidence output
+- VS Code terminal execution
+
+---
+
+## 10. Limitations
+- Model file size is large and may exceed GitHub limits
+- Deployment is local (not cloud-hosted)
+
+---
+
+## 11. Conclusion
+Milestone 4 objectives were successfully achieved. The model was deployed using Streamlit, predictions were logged, and results were properly documented with screenshots.
+
+---
+
+Milestone 4 Status: **Completed**

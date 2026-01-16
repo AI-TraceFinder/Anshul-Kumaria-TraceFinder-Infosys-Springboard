@@ -1,0 +1,4 @@
+Time,Image Name,Prediction,Confidence
+2025-12-25 11:09:12.819624,test1.png,Wiki Image,0.9995256662368774
+2025-12-25 11:09:38.847945,official_scanss1_2.png,Official Image,0.5263259410858154
+2025-12-25 11:46:52.798625,test2.png,Wiki Image,0.9996064901351929
